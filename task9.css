@@ -1,8 +1,434 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@500;700;900&display=swap');
+
+
+
+
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
+body{
+    min-width: 100vw;
+    min-height: 100vh;
+}
+
+
+.top-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 27px;
+    padding-left: 24px;
+}
+
+.TM-box{
+    height: 48px;
+    width: 48px;
+    border-radius: 0px;
+    background: #F16718;
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 26px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.TM-box a{
+    padding-left: 5px;
+}
+
+
+.pre-order-button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 48px;
+    width: 150px;
+    background: #E8EFF2;
+    border-style: solid;
+    border-radius: 8px;
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 26px;
+    text-transform: uppercase;
+    color: #162542;
+    border: 0;
+}
+
+
+.typemaster-text{
+    display: flex;
+    justify-content: flex-start;
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 48px;
+    text-transform: uppercase;
+    color: #162542;
+    margin-top: 64px;
+}
+
+
+.typemaster-info{
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    color: #7B8BAD;
+    height: 78px;
+    width: 327px;
+}
+
+
+.pre-order-button-bottom{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 48px;
+    width: 150px;
+    color: #E8EFF2;
+    border-style: solid;
+    border-radius: 8px;
+    border: 0;
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 26px;
+    text-transform: uppercase;
+    background: #F16718;
+}
+
+
+.release_date{
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 26px;
+    text-transform: uppercase;
+    color: #7B8BAD;
+    padding-left: 32px;
+}
+
+
+.button-release_date{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 32px;
+    width: 100%;
+}
+
+
+.keyboard-box{
+    height: 331px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.keyboard-img{
+    height: 331px;
+    width: 372px;
+    border-radius: 20px 0 0 20px;
+    transform: translateX(24px);
+    margin-top: 64px;
+}
+
+.keyboard-phone-img{
+    height: 193px;
+    width: 129px;
+    border-radius: 0 20px 20px 0;
+    opacity: 0.95;
+}
+
+
+.keyboard-glass{
+    height: 193px;
+    width: 220px;
+    border-radius: 20px;
+}
+
+.keyboards{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 90px;
+}
+
+
+.mechanical-wireless-keyboard{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 36px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #162542;
+    margin-top: 75px;
+}
+
+
+.mechanical-wireless-info{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #7B8BAD;
+    margin-top: 24px;
+    padding-left: 24px;
+    padding-right: 24px;
+}
+
+
+.typemaster-container{
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 32px;
+    width: 100%;
+}
+
+.midd-container{
+    display: flex;
+    flex-direction: column;
+    padding-left: 24px;
+    padding-right: 24px;
+}
+
+.display-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #F16718;
+    border-radius: 16px;
+    width: 65px;
+    height: 65px;
+}
+
+.orange-displays{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 111px;
+}
+
+
+.highly-compatible-text{
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #162542;
+    margin-top: 48px;
+}
+
+
+.highly-compatible-info{
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #7B8BAD;
+    padding-left: 24px;
+    padding-right: 24px;
+    margin-top: 24px;
+}
+
+
+.highly-compatible{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.bluetooth-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #F16718;
+    border-radius: 16px;
+    width: 65px;
+    height: 65px;
+    margin-top: 64px;
+}
+
+
+.wireless-with-bluetooth{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.wireless-with-bluetooth-text{
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #162542;
+    margin-top: 48px;
+}
+
+.wireless-with-bluetooth-info{
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #7B8BAD;
+    margin-top: 24px;
+    padding-left: 24px;
+    padding-right: 24px;
+}
+
+
+.high-capacity-battery{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.battery-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #F16718;
+    border-radius: 16px;
+    width: 65px;
+    height: 65px;
+    margin-top: 64px;
+}
+
+
+.high-capacity-battery-text{
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #162542;
+    margin-top: 48px;
+}
+
+
+.high-capacity-battery-info{
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #7B8BAD;
+    margin-top: 24px;
+    padding-left: 24px;
+    padding-right: 24px;
+}
+
+
+.rgb-backlit-modes{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.light-bulb-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #F16718;
+    border-radius: 16px;
+    width: 65px;
+    height: 65px;
+    margin-top: 64px;
+}
+
+
+.rgb-backlit-modes-text{
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #162542;
+    margin-top: 48px;
+}
+
+
+.rgb-backlit-modes-info{
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #7B8BAD;
+    margin-top: 24px;
+    padding-left: 24px;
+    padding-right: 24px;
+}
+
+
+.all-rights-reserved-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 26px;
+    color: #7B8BAD;
+    margin-top: 96px;
+    margin-bottom: 50px;
+}
+
+
+
+
+
+
 
 
 
