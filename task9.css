@@ -424,12 +424,201 @@ body{
     margin-bottom: 50px;
 }
 
+.keyobard-img-tablet{
+    display: none;
+}
+
+.keyboard-glass-tablet{
+    display: none;
+}
+
+.keyboard-phone-img-tablet{
+    display: none;
+}
 
 
 
 
 
 
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 768px){
+
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+
+
+
+    .keyboard-img{
+        display: none;
+    }
+
+    .keyboard-box{
+        display: none;
+    }
+
+
+    .top-container {
+        margin-top: 49px;
+        padding-left: 39px;
+        padding-right: 40px;
+    }
+
+
+    .keyboard-phone-img{
+        display: none;
+    }
+
+
+    .keyboard-glass{
+        display: none;
+    }
+
+
+
+
+    .midd-container {
+        display: flex;
+        flex-direction: column;
+        padding-left: 39px;
+        padding-right: 0;
+        align-items: flex-start;
+    }
+
+
+    .keyobard-img-tablet{
+        display: block;
+        height: 425px;
+        width: 478px;
+        border-radius: 20px;
+        right: 0;
+        transform: translateX(155px);
+    }
+
+
+    .midd-container-img{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 62px;
+    }
+
+
+
+    .keyboard-img-tablet-container{
+        display: flex;
+        justify-content: flex-end;
+        overflow-x: hidden;
+    }
+
+
+
+    .keyboards {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        margin-top: 24px;
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+
+
+    .keyboard-phone-img-tablet{
+        padding-right: 30px;
+    }
+
+
+    .mechanical-wireless-keyboard-tablet{
+        display: flex;
+        align-items: center;
+        padding-left: 39px;
+        padding-right: 40px;
+        justify-content: space-between;
+        margin-top: 72px;
+    }
+
+    .mechanical-wireless-keyboard {
+        margin: 0;
+    }
+
+
+    .mechanical-wireless-info {
+        margin: 0;
+        padding: 0;
+        height: 78px;
+        width: 398px;
+    }
+
+    .orange-displays{
+        display: flex;
+    }
+
+
+
+    .bluetooth-container {
+        margin: 0;
+    }
+
+
+    .highly-compatible-wireless-bluetooth{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-left: 39px;
+    }
+
+
+
+    .highly-compatible {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+    }
+
+
+    .highly-compatible-info {
+        padding: 0;
+        margin-top: 24px;
+        text-align: left;
+    }
+
+
+    .highly-compatible-text{
+        text-align: left;
+    }
+
+
+    .wireless-with-bluetooth{
+        align-items: flex-start;
+        padding-left: 69px;
+        padding-right: 98px;
+    }
+
+    .wireless-with-bluetooth-text{
+        text-align: left;
+    }
+
+
+    .wireless-with-bluetooth-info{
+        text-align: left;
+        padding: 0;
+    }
+        
+    
+}
 
 
 
