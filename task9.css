@@ -436,6 +436,18 @@ body{
     display: none;
 }
 
+.keyboard-img-desktop{
+    display: none;
+}
+
+.gray-rectangle-container{
+    display: none;
+}
+
+
+.keyboards-for-desktop-version{
+    display: none;
+}
 
 
 
@@ -469,6 +481,14 @@ body{
         display: none;
     }
 
+    .keyboard-img-desktop-container{
+        display: none;
+    }
+    
+    .keyboard-img-desktop{
+        display: none;
+    }
+
 
     .top-container {
         margin-top: 49px;
@@ -484,6 +504,15 @@ body{
 
     .keyboard-glass{
         display: none;
+    }
+
+
+    .keyboards-for-desktop-version{
+        display: none;
+    }
+
+    .keyboard-glass-tablet{
+        display: block;
     }
 
 
@@ -536,6 +565,7 @@ body{
 
 
     .keyboard-phone-img-tablet{
+        display: block;
         padding-right: 30px;
     }
 
@@ -672,6 +702,193 @@ body{
 
 
 
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 1440px){
+    .top-container {
+        margin-top: 64px;
+        padding-left: 165px;
+        padding-right: 165px;
+    }
+
+
+
+    .midd-container-img{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 83px;
+    }
+
+
+    /* .midd-container{
+        padding-left: 165px;
+    } */
+
+    .keyboard-img-tablet-container{
+        display: none;
+    }
+
+    .keyboard-img-desktop-container{
+        display: flex;
+        align-items: center;
+        overflow-x: hidden;
+        padding-left: 240px;
+    }
+
+
+    .keyboard-img-desktop{
+        display: block;
+        height: 480px;
+        width: 540px;
+        border-radius: 20px;
+    }
+
+    .midd-container-img{
+        display: flex;
+        justify-content: flex-end;
+        margin-top: 83px;
+    }
+
+
+    .gray-rectangle-container{
+        display: block;
+        padding-left: 30px;
+    }
+
+    .midd-container{
+        padding: 0;
+    }
+
+
+    .keyboards-for-desktop-version{
+        display: flex;
+        margin-top: 30px;
+    }
+
+    .keyboards{
+        display: none;
+    }
+
+    .mechanical-wireless-keyboard_plus-info{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .mechanical-wireless-keyboard-desktop{
+        display: flex;
+        align-items: flex-start;
+        padding: 0;
+        justify-content: center;
+        margin: 0;
+        flex-direction: column;
+        text-align: left;
+    }
+
+    .mechanical-wireless-keyboard-tablet{
+        display: none;
+    }
+
+    .mechanical-wireless-keyboard{
+        text-align: left;
+        text-transform: uppercase;
+        margin: 0;
+        padding: 0;
+    }
+
+    .mechanical-wireless-info{
+        text-align: left;
+        margin-top: 27px;;
+        padding: 0;
+        height: 130px;
+        width: 260px;
+    }
+
+    .keyboard-phone-img-tablet {
+        padding-right: 30px;
+        display: none;
+    }
+
+    .keyboard-phone-img-desktop{
+        display: block;
+        padding-right: 30px;
+    }
+
+    .keyboard-glass-tablet{
+        display: none;
+    }
+
+
+    .gray-rectangle-container-bottom{
+        display: flex;
+        flex-direction: column-reverse;
+        padding-right: 30px;
+    }
+
+
+    .keyboard-glass-desktop{
+        padding-right: 125px;
+    }
+
+
+
+    .orange-displays{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+        width: 100%;
+        margin-top: 168px;
+        padding: 0;
+        padding-left: 165px;
+
+    }
+
+
+    .wireless-with-bluetooth,
+    .high-capacity-battery,
+    .rgb-backlit-modes{
+        width: 255px;
+    }
+
+    .highly-compatible{
+        width: 280px;
+    }
+
+    .wireless-with-bluetooth{
+        padding: 0;
+        margin: 0;
+    }
+
+    .light-bulb-container,
+    .battery-container{
+        margin: 0;
+    }
+
+    .highly-compatible-wireless-bluetooth{
+        padding: 0;
+    }
+
+    .highly-compatible{
+        padding-right: 30px;
+    }
+
+
+    .rgb-backlit-modes{
+        padding-left: 20px;
+        padding-top: 0;
+        padding-right: 0;
+        padding-bottom: 0;
+    }
+    
+
+}
 
 
 
