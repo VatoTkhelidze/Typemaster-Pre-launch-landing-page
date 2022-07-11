@@ -12,6 +12,27 @@
     box-sizing: border-box;
 }
 
+
+.pre-order-button a{
+    cursor: pointer;
+}
+
+.pre-order-button-bottom a{
+    cursor: pointer;
+}
+
+.pre-order-button:hover{
+    background: #162542;
+    color: white;
+}
+
+.pre-order-button-bottom:hover{
+    background: #FF9B62;
+    color: white;
+}
+
+
+
 body{
     min-width: 100vw;
     min-height: 100vh;
@@ -885,6 +906,10 @@ body{
         padding-top: 0;
         padding-right: 0;
         padding-bottom: 0;
+    }
+
+    .all-rights-reserved-container{
+        margin-top: 128px;
     }
     
 
